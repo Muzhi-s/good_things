@@ -1,13 +1,6 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "api/**/*.py",
-      "use": "@vercel/python"
-    }
-  ],
   "functions": {
-    "api/**/*.py": {
+    "**/*.py": {
       "maxDuration": 10
     }
   }
